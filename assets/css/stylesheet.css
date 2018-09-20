@@ -1,0 +1,480 @@
+body{
+     margin:0px;
+     padding:0px;
+     direction: ltr;
+     font-family: 'Titillium Web', sans-serif;
+}
+ .Section{
+    width: 100%;
+    height: auto;
+    padding-bottom: 120px;
+    padding-top: 110px;
+    box-sizing: border-box;
+    color: white;
+    background-color: #87509c;
+    text-align: center;
+    color: white;
+    }
+ 
+ .container{
+ 	width: 1100px;
+ 	height: auto;
+ 	margin: 0 auto;
+ 	/*background-color: #87509c;*/
+ /*	box-sizing: border-box;*/
+ }
+ h1{
+    font-size: 42px;
+    color: #f7f3ea;
+    font-weight: normal;
+}
+  h2{
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    /*spacing between the letter in the word*/
+
+ }
+   h3{
+    font-size: 24px;
+    font-weight: bold;
+
+ }
+  .clear{
+    clear: both;
+ }
+ /***********************hero section starts here*********************************/
+.heroSection{
+     padding-top:51px;
+     padding-bottom:135px;
+     box-sizing: border-box;
+ }
+
+ .logo{
+ 	width: 50%;
+ 	height: auto;
+ 	float: left;
+    text-align: left;
+ }
+ .menu{
+ 	width: 50%;
+ 	height: auto;
+ 	float: right;
+ 	text-align: right;
+ 	
+ }
+  .menu ul{
+     list-style-type: none;
+ }
+ .menu ul li{
+     display: inline-block;
+     /*floar :left ===  display: inline-block;*/
+ }
+ .menu ul li a{
+     text-decoration: none;
+     color:white;
+     font-size: 16px;
+     font-weight: lighter;
+     margin-left:35px;
+     text-transform: uppercase;
+ }
+ .menu ul li:first-child a{
+     margin-left:0px;
+ }
+ .menu ul li a:hover{
+     text-decoration: underline;
+ }
+ .clear{
+ 	clear: both;
+ }
+.workWithUs{
+	background-color:#eb7d4b;
+	border-radius:5px;
+	text-decoration: none;
+	display: inline-block;
+    padding: 30px 75px;
+    border-bottom: 5px solid #d6571e;
+    box-sizing: border-box;
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+	/*a dosn't take with or height because it's line tags*/
+	/*line-height: 70px;*/
+	/*to make the text in the vertical center*/
+	color: white
+/*why it dosn't take the white from the Section class????????????????????????/*/
+}
+a.workWithUs:hover{
+     text-decoration: underline;
+     transition-duration: 0.4s;
+     background-color:#e05f25;
+     /*?????????????????//*/
+ }
+ .menu ul li a.active{
+   /* text-decoration:underline;*/
+    border-bottom:1px solid white;
+     /*?????????????????//*/
+ }
+ 
+ /* secound section starts here**********************************************/
+ .secoundSection{
+ 	   background-color: #17c2a4;
+ }
+
+ .secP1 {
+ 	font-size: 18px;
+
+ }
+ .secP2{
+ 	font-size: 16px;
+ }
+ .row{
+     width: 100%;
+     height: auto;
+     /*margin-bottom: 123px   margin for the secound section is enough;*/
+ }
+  /*.row:last-child{
+     margin-bottom: 0px;
+ }*/
+ .oneBloc{
+ 	float: left;
+ 	width: 25%;
+ 	height:auto;
+ }
+
+ .contentDiv{
+ 	padding-left: 33px;
+ 	padding-right: 33px;
+ 	box-sizing: border-box;
+ }
+
+ .thirdSection{
+ 	background-color: #e7f1f8;
+  
+    
+ }
+ .thirdSection .container  h2{
+ 	font-weight: bold;
+ 	font-size: 42px;
+ 	color: #3c4761;
+ }
+ .thirdSection .container  p{
+ 	font-size: 18.2px;
+ 	margin-bottom: 77px;
+ 	color: #3c4761;
+ }
+/* .oneBloc{
+     width: 25%;
+     height: auto;
+     padding-left: 15px;
+     box-sizing: border-box;
+}*/
+ .grayDiv{
+ 	background-color: #878787;
+ 	width: 200px;
+ 	height: 200px;
+ 	border-radius:50%;
+ 	margin: 0 auto;
+ 	/*the margin to make the div in the center*/
+
+ }
+
+ .empName{
+    color: #3c4761;
+   /* font-size: 24px;
+    font-weight: bold;*/
+ }
+
+  .row .oneBloc .contentDiv span{
+ 	color: #55c5ea;
+     font-size: 16px;
+ }
+ .empDefinition{
+     color: #3c4761;
+     font-size: 16px;
+ }
+ a.socialLink{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    text-align: center;
+    /*to make the icon in the in the vertical middle of the a block */
+    line-height:33px;
+    display: inline-block;
+    color:white;
+    background-color: #bdd1df;
+    font-size: 16px;
+}
+.socialIcons a.socialLink.fb:hover{
+
+background-color:#3b5998;
+}
+.socialIcons a.socialLink.twitter:hover{
+
+background-color: #1da1f2;
+}
+.socialIcons a.socialLink.linkedin:hover{
+
+background-color: #3b46d7;
+}
+.socialIcons a.socialLink.mail:hover{
+
+background-color:  #ff4343;
+}
+ 
+
+/* what is the selector to do red hover on every soical icon??????????????????????
+.row .oneBloc .socialIcons a : hover{
+     background-color: red;
+     #69a0c7;
+}*/
+
+/*secound section ends here*/
+/**************************************************************2E 3S*/
+/*fourth Section starts here*/
+.fourthSection{
+     background-color: #ffdd99;
+
+    /* width: 100%;
+     height: auto;
+     padding-top:108px;
+     padding-bottom:108px;
+     box-sizing: border-box;
+     margin: 0 auto;*/
+}
+
+.fourthSection .container  h2{
+     color: #393939;
+    
+}
+.fourthSection .container p{
+     color: #393939;
+     font-size: 18px;
+     margin-bottom: 75px;
+     
+     /*height: auto;
+     display: inline-block;
+     margin-bottom: 75px;*/
+
+}
+.portfolioRow{
+     width: 100%;
+     height: auto;
+     margin-bottom: 50px;
+}
+.portfolioItemRight{
+     width: 50%;
+     height: auto;
+     float: right;
+    /* margin-left: 2px;*/
+}
+.portfolioItemLeft{
+     width: 50%;
+     height: auto;
+     float: left;
+}
+.spa{
+    color: #393939;
+}
+/*.marginbutton{
+     margin-bottom: 133px;
+}*/
+.fourthSection .container a{
+      
+     background-color: #17c2a4;
+     border-bottom: 5px solid #0f5f51;
+    
+
+     /*I can't put a in the center without put it in a div first then give the div text-align: center;*/
+}
+.fourthSection .container a:hover{
+     background-color: #0f5f51;
+     text-decoration: underline;
+     transition-duration: .4s;
+}
+
+/*********************the fifth section starts**************************/
+.fithSection{
+     width: 100%;
+     height: auto;
+     background-color:#d74680;
+     padding-top: 90px;
+     padding-bottom: 120px;
+     box-sizing: border-box;
+     /* box-sizing: border-box; solve the space between the sections*/
+}
+/*p.fithSection .container .center ????????????/ why this selecter dosn't work???????{*/
+     .fifthP{
+     font-size: 18px;
+     color: white;
+     margin-bottom: 70px;
+}
+
+
+.peopleRow{
+     width: 100%;
+     height: auto;
+     margin: 0 auto;
+     margin-bottom: 70px;
+}
+.firstPerson{
+     width: 50%;
+     height: auto;
+     float: left;
+}
+.secoundPerson{
+     width: 50%;
+     height: auto;
+     float: right;
+}
+.photo{
+     width:100px;
+     height:100px;
+     border-radius:50%;
+     background-color:#787878;
+     margin: 0 auto;
+}
+ 
+.leftPhoto{
+     float: left;
+     height:auto;
+     width: 100px;
+     text-align: center;
+ }
+ .rightDes{
+     float: right;
+     height: auto;
+     width:calc(100% - 100px);
+     padding-left:40px;
+     padding-right:20px;
+     box-sizing: border-box;
+ }
+ .rightDes h3{
+     color: white;
+     margin-bottom:0;
+     padding-bottom:0px;
+     box-sizing: border-box;
+     font-size: 24px;
+ }
+ .rightDes p{
+ 
+     font-size: 21px;
+
+}
+.rightDes span{
+     color: #ffdd99;
+     font-size: 18px;
+     margin: 0px 0px;
+}
+
+/*********************the fifth section ends**************************/
+/*The last section starts*/
+
+.lastSection{
+ 
+     background-color:#3c5499; 
+     
+ }
+/*.lastSection .containerLast .center h2{
+     letter-spacing: 3px;
+     font-size: 40px;
+     font-weight:bold;
+}*/
+/*.lastSection .containerLast .center p{
+     font-size: 18px;
+     color: white;
+     margin-bottom: 75px;
+}*/
+.formInfo{
+     width: 100%
+     height:auto;
+     margin: 0 auto;
+}
+.namee {
+    width: 100%;
+    height: 50px;
+    background: #273a71;
+    outline: 0px;
+    border: 0px;
+    margin-bottom: 20px;
+    /*margin-left: 5px;*/
+    box-sizing: border-box;
+    padding: 0px 10px;
+    border-radius: 2px;
+}
+.name{
+     float: left;
+     height:auto;
+     width: 48%;
+     text-align: center;
+ }
+ .email{
+     float: right;
+     height:auto;
+     width: 48%;
+     text-align: center;
+ 
+ }
+ .inputText{
+     width: 100%;
+    height: 220px;
+    background: #273a71;
+    outline: 0px;
+    border: 0px;
+    margin-bottom:60px;
+    box-sizing: border-box;
+    padding: 0px;
+    border-radius: 2px;
+    line-height: 0px;
+}
+    /*how to make the place holder in the top of the text area ?????????????????????*/
+.lastSection .container a{
+     
+     background-color: #30bae7;
+    border-bottom: 5px solid #0e95c2;
+    
+
+     /*I can't put a in the center without put it in a div first then give the div text-align: center;*/
+}
+.lastSection .container a:hover{
+     background-color: #0e95c2;
+     text-decoration: underline;
+     transition-duration: .4s;
+}
+    
+
+/********************last section ends************************************/
+/*the footer*/
+footer{
+    background-color: #344b8e;
+    width: 100%
+    height:auto;
+    padding:15px 0;
+    box-sizing: border-box;
+    /*font-weight: bold;*/
+    font-size: 24px;
+    text-align: center;
+}
+.men ul{
+     list-style-type: none;
+ }
+ .men ul li{
+     display: inline-block;
+ }
+ .men ul li a{
+     text-decoration: none;
+     color:white;
+     font-size: 16px;
+     /*font-weight: lighter;*/
+     margin-left:35px;
+ }
+ .men ul li:first-child a{
+     margin-left:0px;
+ }
+ .men ul li a:hover{
+     text-decoration: underline;
+     color: #30bae7;
+ }
